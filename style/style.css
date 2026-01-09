@@ -51,6 +51,7 @@ nav ul li a {
     text-align: center;
     padding: 200px 400px;
     background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
 }
 
 .banner .bu1 {
