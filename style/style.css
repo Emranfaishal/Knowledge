@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+nav {
+    width: 1370px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 139px;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.btn {
+    padding: 12px 16px;
+    border: none;
+    background-color: #30B868;
+    border-radius: 4px;
+    color: white;
+}
+
+/* banner tag  */
+.banner {
+    text-align: center;
+    padding: 200px 400px;
+    background-image: url("../assets/hero-bg.png");
+}
+
+.banner .bu1 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: #30B868;
+    padding: 6px;
+    border-radius: 100px;
+    border: none;
+}
+
+.banner h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.banner .bu2 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.banner .bu3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-left: 16px;
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    border: 1.5px solid white;
+
+}
+
+.notes {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.notes h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.notes p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.Scattered {
+    display: flex;
+    gap: 24px;
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-tag {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgb(248, 234, 234);
+    background: white;
+}
+
+.box-title img {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    margin-top: 60px;
+}
+
+.box-tag h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.box-tag p {
+    font-size: 16px;
+    font-weight: 300px;
+    color: #627382;
+    margin-bottom: 60px;
+}
+
+.brain {
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 86px;
+    display: flex;
+    margin-top: 120px;
+    /* border: 1px solid red; */
+}
+
+.brain h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 120px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+
+.brain h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3d464e;
+    margin-bottom: 16px;
+}
+
+.brain p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 26px;
+}
+
+.icon {
+    display: flex;
+    gap: 5px;
+}
+
+.icon p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.clearly {
+    width: 1360px;
+    max-width: 1085px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 60px;
+    background-color: rgba(250, 235, 215, 0.336);
+    margin-top: 120px;
+    /* border: 1px solid red; */
+}
+
+.clearly h2 {
+    font-size: 40px;
+    font-weight: 700px;
+    color: #000000c1;
+    margin-bottom: 16px;
+}
+
+.clearly p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+footer {
+    background-color: #001931;
+    margin-top: 120px;
+}
+
+.footer-text {
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 60px;
+}
+
+.footer-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.img-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+
+.all {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
